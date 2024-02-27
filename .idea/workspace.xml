@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc35833b-f994-411b-90b5-1eb69a7d96eb" name="Changes" comment="add get_count, get_book">
+    <list default="true" id="fc35833b-f994-411b-90b5-1eb69a7d96eb" name="Changes" comment="add get_count_letters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -27,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ichmowgli"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="71af5ad4-5d7f-4491-a364-a035a0e41387" />
+        <option name="url" value="https://github.com/ichmowgli/bookBot.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -96,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709037250535</updated>
-      <workItem from="1709037253296" duration="1734000" />
+      <workItem from="1709037253296" duration="2487000" />
     </task>
     <task id="LOCAL-00001" summary="add get_count, get_book">
       <option name="closed" value="true" />
@@ -122,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709038226201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add get_count_letters">
+      <option name="closed" value="true" />
+      <created>1709040760780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709040760780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,10 +152,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add get_count, get_book" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get_count, get_book" />
+    <MESSAGE value="add get_count_letters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get_count_letters" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BookBot$main.coverage" NAME="main Coverage Results" MODIFIED="1709040636772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BookBot$main.coverage" NAME="main Coverage Results" MODIFIED="1709041398621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

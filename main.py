@@ -1,11 +1,16 @@
 def main():
     book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
-    # print(text)
     count_words = get_count_words(text)
-    print(f"Total words: {count_words}")
-    lett = get_count_letters(text)
-    print(f"Total letters: {lett}")
+    letters = get_count_letters(text)
+
+    print(f"--- Begin report of {book_path} ---")
+    print(f"{count_words} words found in the document\n")
+
+    for letter, num in letters.items():
+        print(f"The '{letter}' character was found {num} times")
+
+    print(f"--- End report ---")
 
 
 def get_book_text(path):
@@ -28,6 +33,15 @@ def get_count_letters(text):
             else:
                 letters[letter] = 1
     return letters
+
+
+def sort_on(d):
+    return d["num"]
+
+
+def get_sorted_letters(letters):
+    sorted_letters = sorted(letters.items(), key=sort_on, reverse=True)
+    return sorted_letters
 
 
 main()
